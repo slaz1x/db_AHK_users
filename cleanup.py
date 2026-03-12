@@ -6,6 +6,7 @@ DATE_FORMAT = "%d.%m.%Y.%H:%M"
 DB_FILES = [
     Path("fish_users_v1.json"),
     Path("shaxta_users_v1.json"),
+    Path("zavod_users_v1.json"),
 ]
 
 def load_users(db_file: Path):
