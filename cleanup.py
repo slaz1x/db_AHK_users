@@ -9,6 +9,7 @@ DB_FILES = [
     Path("zavod_users_v1.json"),
     Path("fsin_users_v1.json"),
     Path("zal_users_v1.json"),
+    Path("lesopilka_users_v1.json"),
 ]
 
 def load_users(db_file: Path):
